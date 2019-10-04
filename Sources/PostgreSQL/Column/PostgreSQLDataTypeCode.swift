@@ -194,6 +194,7 @@ extension PostgreSQLDataType {
         case .text: return .text
         case .time: return .time
         case .timestamptz: return .timestamptz
+        case .timestamp: return .timestamp
         case .uuid: return .uuid
         default: return nil
         }
